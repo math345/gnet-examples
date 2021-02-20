@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/panjf2000/gnet"
-	"github.com/panjf2000/gnet/examples/custom_codec/protocol"
+	"github.com/gnet-io/gnet-examples/examples/custom_codec/protocol"
 	"github.com/panjf2000/gnet/pool/goroutine"
 )
 
@@ -63,5 +63,5 @@ func main() {
 	flag.BoolVar(&multicore, "multicore", true, "multicore")
 	flag.Parse()
 	addr := fmt.Sprintf("tcp://:%d", port)
-	testCustomCodecServe(addr, multicore, false, nil)
+	testCustomCodecServe(addr, multicore, true, nil)
 }

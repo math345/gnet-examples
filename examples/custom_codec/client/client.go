@@ -9,7 +9,7 @@ import (
 	"log"
 	"net"
 
-	"github.com/panjf2000/gnet/examples/custom_codec/protocol"
+	"github.com/gnet-io/gnet-examples/examples/custom_codec/protocol"
 )
 
 // Example command: go run client.go
